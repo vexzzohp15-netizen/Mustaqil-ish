@@ -290,6 +290,10 @@ nav a:hover {
 
 @media(max-width:700px) {
 
+    .kirish{
+        display: none;
+    }
+
     header {
         flex-direction: column;
         gap: 20px;
@@ -297,7 +301,7 @@ nav a:hover {
     }
 
     nav {
-        text-align: center;
+        display: none;
     }
 
     nav a {
@@ -333,7 +337,7 @@ nav a:hover {
         margin-top: 40px;
     }
 
-    .statistika {
+    .amrxon {
         width: 90%;
         flex-direction: column;
         gap: 25px;
