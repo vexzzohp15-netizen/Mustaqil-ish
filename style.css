@@ -1,0 +1,397 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #111827;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 65px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.logo {
+    color: #2864d7;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    color: #174bb0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    margin: 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #2864d7;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.kirish {
+    text-decoration: none;
+    color: #555;
+    transition: 0.3s;
+}
+
+.kirish:hover {
+    color: #2864d7;
+}
+
+.royxat {
+    background-color: #2864e0;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.royxat:hover {
+    background-color: #174bb0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 150px;
+}
+
+.matn {
+    width: 50%;
+}
+
+.amrv {
+    display: inline-block;
+    background-color: #f1f5ff;
+    color: #2864d7;
+    padding: 9px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.matn h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.text {
+    color: #667085;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.kurs {
+    background-color: #2864e0;
+    color: white;
+    border: 2px solid #2864e0;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.kurs:hover {
+    background-color: #174bb0;
+}
+
+.dastur {
+    background-color: white;
+    color: #2864d7;
+    border: 2px solid #2864d7;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dastur:hover {
+    background-color: #2864d7;
+    color: white;
+}
+
+.hero-img {
+    width: 550px;
+    height: 430px;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.hero-img img:hover {
+    transform: scale(1.02);
+}
+
+
+.amrxon {
+    width: 760px;
+    margin: 20px auto 80px;
+    padding: 25px;
+    background-color: #f3f6ff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stat {
+    width: 33%;
+    border-right: 1px solid #dce2f0;
+}
+
+.stat:last-child {
+    border: none;
+}
+
+.stat h2 {
+    color: #2864d7;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.stat p {
+    color: #667085;
+    font-size: 14px;
+}
+
+.nimaga {
+    text-align: center;
+    padding: 20px 0 80px;
+}
+
+.nimaga h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.kichik-text {
+    color: #667085;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    width: 280px;
+    min-height: 205px;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    padding: 30px 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .12);
+    transform: translateY(-5px);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #f3f6ff;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    padding-top: 14px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #667085;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.telefon {
+    background-color: #2864e8;
+    color: white;
+    text-align: center;
+    padding: 65px;
+}
+
+.telefon h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.telefon p {
+    margin-bottom: 25px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input input {
+    width: 305px;
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.input button {
+    padding: 13px 25px;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    color: #2864d7;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input button:hover {
+    background-color: #eeeeee;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #667085;
+    font-size: 13px;
+}
+
+@media(max-width:700px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 7px;
+    }
+
+    .right {
+        gap: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .matn {
+        width: 100%;
+    }
+
+    .matn h1 {
+        font-size: 38px;
+    }
+
+    .buttons {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .kurs,
+    .dastur {
+        width: 100%;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 300px;
+        margin-top: 40px;
+    }
+
+    .statistika {
+        width: 90%;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .stat {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #dce2f0;
+        padding-bottom: 15px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .telefon {
+        padding: 50px 20px;
+    }
+
+    .telefon h1 {
+        font-size: 25px;
+    }
+
+    .input {
+        flex-direction: column;
+    }
+
+    .input input {
+        width: 100%;
+    }
+
+    .input button {
+        width: 100%;
+    }
+
+}
