@@ -27,19 +27,11 @@ header {
     transition: 0.3s;
 }
 
-.logo:hover {
-    color: #174bb0;
-}
-
 nav a {
     text-decoration: none;
     color: #555;
     margin: 15px;
     transition: 0.3s;
-}
-
-nav a:hover {
-    color: #2864d7;
 }
 
 .right {
@@ -54,10 +46,6 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.kirish:hover {
-    color: #2864d7;
-}
-
 .royxat {
     background-color: #2864e0;
     color: white;
@@ -67,10 +55,6 @@ nav a:hover {
     font-size: 15px;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.royxat:hover {
-    background-color: #174bb0;
 }
 
 .hero {
@@ -124,10 +108,6 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.kurs:hover {
-    background-color: #174bb0;
-}
-
 .dastur {
     background-color: white;
     color: #2864d7;
@@ -137,11 +117,6 @@ nav a:hover {
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.dastur:hover {
-    background-color: #2864d7;
-    color: white;
 }
 
 .hero-img {
@@ -157,11 +132,6 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.hero-img img:hover {
-    transform: scale(1.02);
-}
-
-
 .amrxon {
     width: 760px;
     margin: 20px auto 80px;
@@ -176,10 +146,6 @@ nav a:hover {
 .stat {
     width: 33%;
     border-right: 1px solid #dce2f0;
-}
-
-.stat:last-child {
-    border: none;
 }
 
 .stat h2 {
@@ -221,11 +187,6 @@ nav a:hover {
     border-radius: 15px;
     padding: 30px 20px;
     transition: 0.3s;
-}
-
-.card:hover {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, .12);
-    transform: translateY(-5px);
 }
 
 .icon {
@@ -289,16 +250,44 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.input button:hover {
-    background-color: #eeeeee;
-}
-
 footer {
     text-align: center;
     padding: 30px;
     color: #667085;
     font-size: 13px;
 }
+
+.dastur:hover {
+    background-color: #2864d7;
+    color: white;
+}
+
+.logo:hover {
+    color: #174bb0;
+}
+
+.input button:hover {
+    background-color: #eeeeee;
+}
+
+.card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .12);
+    transform: translateY(-5px);
+}
+
+.kurs:hover {
+    background-color: #174bb0;
+}
+
+nav a:hover {
+    color: #2864d7;
+}
+
+.royxat:hover {
+    background-color: #174bb0;
+}
+
+
 
 @media(max-width:700px) {
 
