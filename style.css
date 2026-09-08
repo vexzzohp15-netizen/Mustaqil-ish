@@ -295,7 +295,6 @@ nav a:hover {
     }
 
     header {
-        flex-direction: column;
         gap: 20px;
         padding: 20px;
     }
@@ -313,7 +312,7 @@ nav a:hover {
     }
 
     .hero {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
         padding: 50px 20px;
     }
